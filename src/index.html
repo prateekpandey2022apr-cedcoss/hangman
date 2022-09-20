@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Play Hangman Animals</h3>
+
+    <svg width="400px" height="300px">
+      <line
+        x1="50"
+        y1="300"
+        x2="200"
+        y2="300"
+        style="stroke: #000; stroke-width: 2"
+      />
+      <line
+        x1="125"
+        y1="125"
+        x2="125"
+        y2="300"
+        style="stroke: #000; stroke-width: 2"
+      />
+      <line
+        x1="125"
+        y1="125"
+        x2="170"
+        y2="125"
+        style="stroke: #000; stroke-width: 2"
+      />
+      <line
+        x1="170"
+        y1="125"
+        x2="170"
+        y2="150"
+        style="stroke: #000; stroke-width: 2"
+      />
+
+      <circle
+        cx="170"
+        cy="170"
+        r="20"
+        stroke="black"
+        stroke-width="2"
+        fill="transparent"
+        class="pic-part-1"
+      />
+
+      <line
+        x1="170"
+        y1="190"
+        x2="170"
+        y2="235"
+        style="stroke: #000; stroke-width: 2"
+        class="pic-part-2"
+      />
+
+      <line
+        x1="170"
+        y1="210"
+        x2="205"
+        y2="199"
+        style="stroke: #000; stroke-width: 2"
+        class="pic-part-3"
+      />
+
+      <line
+        x1="170"
+        y1="210"
+        x2="140"
+        y2="199"
+        style="stroke: #000; stroke-width: 2"
+        class="pic-part-3"
+      />
+
+      <line
+        x1="170"
+        y1="234"
+        x2="202"
+        y2="250"
+        style="stroke: #000; stroke-width: 2"
+        class="pic-part-4"
+      />
+
+      <line
+        x1="170"
+        y1="234"
+        x2="140"
+        y2="250"
+        style="stroke: #000; stroke-width: 2"
+        class="pic-part-4"
+      />
+    </svg>
+
+    <div class="guess">
+      <!-- <div class="guess-char"></div>
+      <div class="guess-char"></div>
+      <div class="guess-char"></div>
+      <div class="guess-char"></div> -->
+    </div>
+
+    <div class="chars">
+      <button type="button" class="button">a</button>
+      <button class="button">b</button>
+      <button class="button">c</button>
+      <button class="button">d</button>
+      <button class="button">e</button>
+      <button class="button">f</button>
+      <button class="button">g</button>
+      <button class="button">h</button>
+      <button class="button">i</button>
+      <button class="button">j</button>
+      <button class="button">k</button>
+      <button class="button">l</button>
+      <button class="button">m</button>
+      <br />
+      <button class="button">n</button>
+      <button class="button">o</button>
+      <button class="button">p</button>
+      <button class="button">q</button>
+      <button class="button">r</button>
+      <button class="button">s</button>
+      <button class="button">t</button>
+      <button class="button">u</button>
+      <button class="button">v</button>
+      <button class="button">w</button>
+      <button class="button">x</button>
+      <button class="button">y</button>
+      <button class="button">z</button>
+    </div>
+
+    <script>
+      document
+        .querySelector("svg")
+        .addEventListener("mousemove", function (event) {
+          console.log(event);
+        });
+    </script>
+  </body>
+</html>
